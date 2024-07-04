@@ -61,6 +61,41 @@ public class Basics {
             //Operands = values, variables, numbers, quality
             //Operators = + - / %
 
+
+            //Relational Operators
+
+        /*    int a=100,b=40;
+
+            System.out.println(a<b);
+            System.out.println(a>b);
+            System.out.println(a<=b);
+            System.out.println(a>=b);
+            System.out.println(a!=b);
+            System.out.println(a==b);
+*/
+            //Logical Operators
+
+        /*    boolean val1 = true;
+            boolean val2 = false;
+
+            System.out.println(val1 && val2);
+            System.out.println(val1 || val2);
+            System.out.println(!val1);
+            System.out.println(!val2);
+*/
+
+            boolean b1 = 10>20;
+            System.out.println(b1);
+
+            boolean b2 = 30>10;
+            System.out.println(b2);
+
+            System.out.println(b1 && b2);
+            System.out.println(b1 || b2);
+
+            System.out.println((10>30)&&(30<10));
+
+
            /* int totalFriends=100;
             System.out.println(totalFriends);
             totalFriends=totalFriends+1;
@@ -106,10 +141,10 @@ public class Basics {
 //            double pie=3.14159;
 //            pie=4;
 
-            final double PI=3.14159;  // the value remains the same
+        /*    final double PI=3.14159;  // the value remains the same
             //PI=45;
             System.out.println(PI);
-
+*/
 
         }
     }

@@ -3,9 +3,20 @@ package BroCode;
 public class Conditions {
     public static void main(String[] args) {
 
-        //if statement = performs a block of code if it's condition evaluates to be true
+       /* //Ternery Operator
 
-        /*int age=18;
+        //var = exp ? result1:result2;
+
+        int a=200,b=400;
+
+        int x = (a>b)? a:b;
+        System.out.println(x);
+*/
+
+
+        /*//if statement = performs a block of code if it's condition evaluates to be true
+
+        int age=18;
 
         if (age==75){  //  = assignment operator  , == equals to operator
             System.out.println("Senior Citizen");
@@ -17,6 +28,38 @@ public class Conditions {
             System.out.println("Not Eligible to vote");
         }*/
 
+        /*// Boolean conditions
+
+        if(false)   // if(true)
+            System.out.println("Print 1");
+        else
+            System.out.println("Print 2");*/
+
+
+        /*// Nested IF Else statement
+
+        if(false){
+
+            if(false){
+                System.out.println("Print inner if");
+            }
+            else
+                System.out.println("Print inner else block");
+        }
+
+        else
+            System.out.println("Outer Else block");*/
+
+        /*// Display Week days
+
+        int day=2;
+
+        switch (day){
+
+            case 1: System.out.println("Sunday"); break;
+            case 2:System.out.println("Monday"); break;
+            default:System.out.println("Not a day");
+        }*/
 
         // switch statement  = statement that allows a variable to be tested for equality against a list of values
 

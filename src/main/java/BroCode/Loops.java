@@ -7,6 +7,9 @@ import java.util.SortedMap;
 public class Loops{
     public static void main(String[] args){
 
+
+        //While Loop
+
         //While loops = executes a block of code as long as its condition remains true
 
        /* Scanner scanner = new Scanner(System.in);

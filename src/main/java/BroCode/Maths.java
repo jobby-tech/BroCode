@@ -47,7 +47,34 @@ public class Maths {
         //System.out.println(x);
 
 
+        // Post Increment Pre Increment Post Decrement Pre Decrement
 
+        int a=10;
+
+        int res=a++;
+
+        System.out.println(res);
+
+        System.out.println(a);
+
+        int b=100;
+        int preRes=++b;
+
+        System.out.println(preRes);
+
+        int c =200;
+        int preDec = --c;
+        System.out.println(preDec);
+
+        int d =200;
+        int postDec = d--;
+        System.out.println(postDec);
+
+
+
+        int e=500;
+        e--;
+        System.out.println(e);
 
 
 
