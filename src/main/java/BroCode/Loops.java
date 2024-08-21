@@ -8,7 +8,40 @@ public class Loops{
     public static void main(String[] args){
 
 
-        //While Loop
+       /* //While Loop Practise
+
+        int i=0;   // Initialization
+
+        while (i<=10){  // Condition
+            //System.out.println(i);
+            System.out.println("Test");
+            i++;     // Incrementation
+        }*/
+
+        //While Loop Practise 1
+
+        /*int i=2;
+
+        while (i<=10){
+            System.out.println(i);
+            i=i+2;
+        }*/
+
+        /*int i=0;
+        while(i<=10){
+
+            if(i%2==0){
+                System.out.println(i);
+            }
+            i++;
+        }*/
+
+       /* int i=10;
+        while(i>=0){
+            System.out.println(i);
+            i--;
+        }
+*/
 
         //While loops = executes a block of code as long as its condition remains true
 
@@ -21,7 +54,68 @@ public class Loops{
         }
         System.out.println("Hello "+name);*/
 
+        /*// Print even numbers btw 1-10
 
+        int i=2;
+        while(i<=10){
+
+            System.out.println(i);
+            i=i+2;
+        }*/
+
+        /*// Print even numbers btw 1-10 with condition checking
+
+        int i=1;
+        while (i<=10){
+
+            if(i%2==0){
+                System.out.println(i);
+            }
+            i++;
+        }
+*/
+
+        // Jumping Statement - Break and continue
+
+        for(int i=1;i<10;i++){
+
+            System.out.println(i);
+            if(i%2==0){
+                break;  //continue;
+                //System.out.println(i);
+            }
+
+        }
+
+        // Print even or odd numbers btw 1-10 with condition checking
+
+//        int i=1;
+//        while (i<=10){
+//
+//            if(i%2==0){
+//                System.out.println("The number "+i+" is Even");
+//            }
+//            else
+//                System.out.println("The number "+i+" is Odd");
+//            i++;
+//        }
+
+
+        // Even numbers with For loop
+
+       /* for(int i=1;i<=10;i++){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+*/
+       /* int i=0;
+        do{
+            System.out.println(i);
+            i++;
+        }while (i<=10);
+
+*/
         //Do While loop, The do block gets executed once before the while condition gets executed
 
         /*do {
