@@ -1,6 +1,6 @@
 package DataTypesSDET;
 
-public class Arrays {
+public class ArraysProg {
 
 
     public static void main(String arg[])
