@@ -17,6 +17,15 @@ public class exceptionHandle {
         System.out.println("The Number is "+(100/numb)); // Arithmetic Exception
 
         System.out.println(" Program is Completed.... ");
+
+
+        try{
+
+        }
+
+        catch (Exception e){
+
+        }
     }
 }
 
