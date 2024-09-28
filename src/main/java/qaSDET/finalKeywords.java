@@ -1,7 +1,5 @@
-package DataTypesSDET;
+package qaSDET;
 
-
-import org.w3c.dom.ls.LSOutput;
 
 class newTest{
 

@@ -1,4 +1,4 @@
-package DataTypesSDET;
+package qaSDET;
 
 
 class Bank{
