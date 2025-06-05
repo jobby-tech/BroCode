@@ -3,7 +3,9 @@ package InterviewPrograms;
 public class stringReverse {
 
     public static void main(String[] arg) {
-    /*{
+
+
+        /*{
 
         String text = "Geeks";
         String newStr ="";
@@ -16,7 +18,7 @@ public class stringReverse {
         }
         System.out.println("Reversed word: "+newStr);
 
-    }*/
+        }*/
 
    /* {
 
@@ -29,7 +31,7 @@ public class stringReverse {
         System.out.println(newStr);
     }*/
 
-   /* {
+
         String scentance="New Joined Per";
         String revStr="";
         String splT[]=scentance.split(" ");
@@ -42,7 +44,7 @@ public class stringReverse {
             revStr=revStr+" ";
         }
         System.out.println(revStr);
-
+/*
 
 
 
@@ -62,7 +64,7 @@ public class stringReverse {
 */
 
 
-        String words="Given Find the number of words";
+      /*  String words="Given Find the number of words";
         int count=0;
         char c[]=words.toCharArray();
         for(int i=0;i<c.length;i++){
@@ -72,7 +74,7 @@ public class stringReverse {
         }
 
         System.out.println("Total Number of words = "+(count+1));
-
+*/
 
 
 
