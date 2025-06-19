@@ -1,21 +1,31 @@
 package InterviewPrograms;
 
 public class findMissingNuminArry {
-
     public static void main(String[] args) {
 
-        int numArr[]={3,5,7,9};
 
+        int[] arr = {9,8, 2, 4, 5, 7};
 
-      // int maxVal= ;
-        for(int i=0;i<=numArr[numArr.length-1];i++){
+            int n = arr.length + 1;
 
-                     for (int j=0;j<=numArr.length-1;j++){
+            for (int i = 1; i <=n ; i++) {
+                boolean found = false;
+                for (int j = 0; j < n - 1; j++) {
+                    if (arr[j] == i) {
+                        found = true;
+                        break;
+                    }
+                }
 
-               if(numArr[j]!=i){                // 3!=0  - 0,
-                   System.out.println(i);
-               }
+                // If the current number is not present
+                if (!found)
+                    System.out.println(i);
             }
         }
-    }
+
+
+
 }
+
+
+
