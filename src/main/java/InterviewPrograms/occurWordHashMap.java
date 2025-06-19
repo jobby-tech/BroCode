@@ -8,16 +8,16 @@ public class occurWordHashMap {
 
         String sent = "sea sea shell";
 
-        HashMap<Character,Integer> countMap = new HashMap<>();
+        String[] words = sent.split(" ");
 
-        for (char c: sent.toCharArray()){
-            countMap.put(c,countMap.getOrDefault(c,0)+1);
+        HashMap<String,Integer> wordH = new HashMap<>();
+
+        for (String w:words){
+            wordH.put(w,wordH.getOrDefault(w,0)+1);
         }
 
-        System.out.println("Character Occurance");
-
-        for (Map.Entry<Character,Integer> entry: countMap.entrySet()){
-            System.out.println(entry.getKey()+ " : " +entry.getValue());
+        for (Map.Entry<String ,Integer> entry: wordH.entrySet()){
+            System.out.println(entry.getKey() +" : "+entry.getValue());
         }
 
     }

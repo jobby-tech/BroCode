@@ -9,16 +9,17 @@ public class occurCharHashMap {
 
         String sent = "sea sea shell";
 
-        HashMap<Character,Integer> countMap = new HashMap<>();
+        char[] letter = sent.toCharArray();
 
-        for (char c: sent.toCharArray()){
-            countMap.put(c,countMap.getOrDefault(c,0)+1);
+        HashMap<Character,Integer> lettH = new HashMap<>();
+
+        for (Character c:letter){
+            lettH.put(c,lettH.getOrDefault(c,0)+1);
         }
 
-        System.out.println("Character Occurance");
+        for(Map.Entry<Character,Integer> entry:lettH.entrySet()){
 
-        for (Map.Entry<Character,Integer> entry: countMap.entrySet()){
-            System.out.println(entry.getKey()+ " : " +entry.getValue());
+            System.out.println(entry.getKey()+ " : "+entry.getValue());
         }
     }
 }
